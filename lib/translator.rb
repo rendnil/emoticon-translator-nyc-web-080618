@@ -8,7 +8,8 @@ def load_library(file_path)
   new_hash = {"get_meaning" => {    }, "get_emoticon"=> {  } }
   #library.each
   library.each do |set|
-    print set
+    puts set.keys
+    puts set[1]
   
   
  end  
