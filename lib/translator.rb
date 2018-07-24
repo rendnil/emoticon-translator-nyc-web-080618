@@ -10,6 +10,7 @@ def load_library(file_path)
   #library.each
   library.each do |thing|
     puts thing
+    puts thing.class
   
   
  end  
