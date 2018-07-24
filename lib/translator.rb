@@ -11,13 +11,13 @@ def load_library(file_path)
   #library.each
   library.each do |key, values|
     #puts key
-    puts values[1]
+    #puts values[1]
     #binding.pry
     new_hash["get_meaning"][values[1]] = key
   
  end  
-  puts library
-  puts new_hash
+  #puts library
+  #puts new_hash
   new_hash
 end
 
