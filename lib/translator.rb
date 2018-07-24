@@ -13,6 +13,7 @@ def load_library(file_path)
     #puts key
     puts values[1]
     #binding.pry
+    new_hash["get_meaning"][values[1]] = key
   
  end  
   puts library
