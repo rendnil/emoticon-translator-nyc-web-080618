@@ -12,6 +12,7 @@ def load_library(file_path)
   library.each do |key, values|
     puts key
     puts values
+    binding.pry
   
  end  
   puts library
