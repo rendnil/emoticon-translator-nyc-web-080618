@@ -5,6 +5,7 @@ def load_library(file_path)
   
   library = YAML.load_file(file_path)
   
+  puts library
   
 end
 
@@ -15,3 +16,5 @@ end
 def get_english_meaning
   # code goes here
 end
+
+load_library()
