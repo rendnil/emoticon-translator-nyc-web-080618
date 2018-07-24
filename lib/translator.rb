@@ -6,7 +6,13 @@ def load_library(file_path)
   library = YAML.load_file(file_path)
   
   new_hash = {"get_meaning" => {    }, "get_emoticon"=> {  } }
+  library.each do |meaning, emoticon|
+    puts meaning
+    puts emoticon
   
+  
+  
+  end  
   
   puts new_hash
   new_hash
