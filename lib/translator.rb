@@ -10,9 +10,9 @@ def load_library(file_path)
   new_hash = {"get_meaning" => {    }, "get_emoticon"=> {  } }
   #library.each
   library.each do |key, values|
-    puts key
-    puts values
-    binding.pry
+    #puts key
+    puts values[1]
+    #binding.pry
   
  end  
   puts library
