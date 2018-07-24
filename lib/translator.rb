@@ -12,7 +12,7 @@ def load_library(file_path)
   library.each do |thing|
     puts thing[1]
     puts thing.class
-    binding.pry
+    #binding.pry
   
   
  end  
