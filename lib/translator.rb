@@ -5,13 +5,11 @@ def load_library(file_path)
   
   library = YAML.load_file(file_path)
   
-  library = {"get_meaning" => {    }, "get_emoticon"=> {  } }
-  
-  puts library
-  
-  library
+  new_hash = {"get_meaning" => {    }, "get_emoticon"=> {  } }
   
   
+  puts new_hash
+  new_hash
 end
 
 def get_japanese_emoticon
