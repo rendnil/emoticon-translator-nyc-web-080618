@@ -9,6 +9,7 @@ def load_library(file_path)
   
   puts library
   
+  library
   
   
 end
