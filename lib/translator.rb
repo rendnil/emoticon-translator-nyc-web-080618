@@ -9,7 +9,7 @@ def load_library(file_path)
   new_hash = {"get_meaning" => {    }, "get_emoticon"=> {  } }
   #library.each
   library.each do |thing|
-    print thing
+    puts thing
   
   
  end  
