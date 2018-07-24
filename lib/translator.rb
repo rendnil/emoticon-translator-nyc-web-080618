@@ -14,6 +14,7 @@ def load_library(file_path)
     #puts values[1]
     #binding.pry
     new_hash["get_meaning"][values[1]] = key
+    new_hash["get_emoticon"][values[0]] = [values[1]]
   
  end  
   #puts library
