@@ -16,7 +16,7 @@ def load_library(file_path)
   
   
  end  
-  
+  puts library
   puts new_hash
   new_hash
 end
