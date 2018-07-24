@@ -1,5 +1,6 @@
 # require modules here
 require "yaml"
+require "pry"
 
 
 def load_library(file_path)
@@ -11,6 +12,7 @@ def load_library(file_path)
   library.each do |thing|
     puts thing[1]
     puts thing.class
+    binding.pry
   
   
  end  
