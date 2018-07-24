@@ -11,14 +11,11 @@ def load_library(file_path)
   library.each do |key, values|
     new_hash["get_meaning"][values[1]] = key
     new_hash["get_emoticon"][values[0]] = values[1]
-  
- end  
-  #puts library
-  #puts new_hash
+   end  
   new_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file_path, emoticon)
   # code goes here
 end
 
